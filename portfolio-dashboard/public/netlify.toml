@@ -1,0 +1,7 @@
+[build]
+  base = "portfolio/portfolio-dashboard"
+  command = "npm run build"
+  publish = ".next"
+
+# This part is handled automatically by the Netlify Next.js plugin.
+# You generally do NOT need manual redirects for Next.js unless you are doing a static export.
