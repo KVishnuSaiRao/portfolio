@@ -1,0 +1,12 @@
+[build]
+  # 1. Enter the app folder
+  base = "portfolio-dashboard"
+
+  # 2. Build command
+  command = "npm run build"
+
+  # 3. CRITICAL FIX: Just ".next" (It is relative to the 'base' folder now)
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
